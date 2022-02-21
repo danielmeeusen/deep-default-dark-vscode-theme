@@ -1,0 +1,21 @@
+{
+    "name": "default-dark--vib-theme",
+    "displayName": "Default Dark+ Vib Theme",
+    "description": "Vibrant Version of the Default Dark+ Color Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Default Dark+ Vib",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Default Dark+ Vib-color-theme.json"
+            }
+        ]
+    }
+}
