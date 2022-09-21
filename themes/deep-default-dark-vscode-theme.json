@@ -1,8 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Default Dark+ Vib",
-	"type": "dark",
-	"include": "./dark_vs.json",
+	"name": "Dark+ (default dark)",
 	"include": "./dark_vs.json",
 	"tokenColors": [
 		{
