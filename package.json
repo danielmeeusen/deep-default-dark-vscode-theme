@@ -9,8 +9,25 @@
     "engines": {
         "vscode": "^1.55.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme/issues"
+    },
+    "galleryBanner": {
+        "color": "",
+        "theme": "dark"
+    },
+    "icon": "",
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "Dark Theme",
+        "Default Dark+ Theme",
+        "Darker Default Theme"
     ],
     "contributes": {
         "themes": [
@@ -20,9 +37,19 @@
                 "path": "./themes/deep-default-dark.json"
             },
             {
-                "label": "Deep Dark Cool",
+                "label": "Cool Deep Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cool-default-dark.json"
+            },
+            {
+                "label": "Vibrant Deep Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vibrant-default-dark.json"
+            },
+            {
+                "label": "Vibrant Cool Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vibrant-cool-dark.json"
             }
         ]
     }
