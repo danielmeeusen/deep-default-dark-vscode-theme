@@ -1,7 +1,10 @@
 {
     "name": "deep-default-dark-vscode-theme",
     "displayName": "Deep Default Dark+ VScode Theme",
-    "description": "Slightly darker version of the default Dark+ VScode theme",
+    "description": "Slightly darker and higher contrast versions of the default Dark+ VScode theme",
+    "author": {
+        "name": "Daniel Meeusen"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
@@ -14,8 +17,14 @@
             {
                 "label": "Deep Default Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/deep-default-dark-vscode-theme.json"
+                "path": "./themes/deep-default-dark.json"
+            },
+            {
+                "label": "Deep Dark Cool",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cool-default-dark.json"
             }
         ]
     }
 }
+

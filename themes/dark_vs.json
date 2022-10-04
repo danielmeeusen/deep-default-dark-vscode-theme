@@ -1,12 +1,8 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Dark+ (default dark)",
-	"type": "dark",
+	"name": "Dark (Visual Studio)",
 	"colors": {
-		"titleBar.activeBackground": "#191919cc",
-		"editor.background": "#141414", // Base Color
-		"sideBar.background": "#191919", // Sidebar List Background
-		"activityBar.background": "#1f1f1f", // Activity Bar Background
+		"editor.background": "#1E1E1E",
 		"editor.foreground": "#D4D4D4",
 		"editor.inactiveSelectionBackground": "#3A3D41",
 		"editorIndentGuide.background": "#404040",

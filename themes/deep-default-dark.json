@@ -2,6 +2,32 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Dark+ (default dark)",
 	"include": "./dark_vs.json",
+	"colors": {
+		"titleBar.activeBackground": "#191919cc",
+		"editor.background": "#141414", // Base Color
+		"sideBar.background": "#191919", // Sidebar List Background
+		"activityBar.background": "#1f1f1f", // Activity Bar Background
+		"editor.foreground": "#D4D4D4",
+		"editor.inactiveSelectionBackground": "#3A3D41",
+		"editorIndentGuide.background": "#404040",
+		"editorIndentGuide.activeBackground": "#707070",
+		"editor.selectionHighlightBackground": "#ADD6FF26",
+		"list.dropBackground": "#383B3D",
+		"activityBarBadge.background": "#007ACC",
+		"sideBarTitle.foreground": "#BBBBBB",
+		"input.placeholderForeground": "#A6A6A6",
+		"menu.background": "#252526",
+		"menu.foreground": "#CCCCCC",
+		"statusBarItem.remoteForeground": "#FFF",
+		"statusBarItem.remoteBackground": "#16825D",
+    "statusBar.background" : "#1A1A1A",
+    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.debuggingBackground": "#263238",
+		"ports.iconRunningProcessforeground": "#369432",
+		"sideBarSectionHeader.background": "#0000",
+		"sideBarSectionHeader.border": "#ccc3",
+		"tab.lastPinnedBorder": "#ccc3"
+	},
 	"tokenColors": [
 		{
 			"name": "Function declarations",
