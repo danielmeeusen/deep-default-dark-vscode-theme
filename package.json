@@ -32,24 +32,29 @@
     "contributes": {
         "themes": [
             {
-                "label": "Deep Default Dark",
+                "label": "Deep Normal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/normal-default-dark.json"
+            },
+            {
+                "label": "Deep Normal Vibrant",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vibrant-cool-dark.json"
+            },
+            {
+                "label": "Deep Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/deep-default-dark.json"
             },
             {
-                "label": "Cool Deep Dark",
+                "label": "Deep Dark Cool",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cool-default-dark.json"
             },
             {
-                "label": "Vibrant Deep Dark",
+                "label": "Deep Dark Vibrant",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vibrant-default-dark.json"
-            },
-            {
-                "label": "Vibrant Cool Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/vibrant-cool-dark.json"
             }
         ]
     }
