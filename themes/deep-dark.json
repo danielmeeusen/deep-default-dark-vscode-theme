@@ -1,13 +1,54 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Normal Default Dark",
+	"name": "Deep Dark",
 	"include": "./dark_vs.json",
 	"colors": {
-		"statusBar.background" : "#1A1A1A",
+		// title bar
+		"titleBar.activeBackground": "#191919cc",
+		// editor
+		"editor.background": "#141414", // Base Color
+		"editor.foreground": "#D4D4D4",
+		"editor.inactiveSelectionBackground": "#3A3D41",
+		"editorIndentGuide.background": "#404040",
+		"editorIndentGuide.activeBackground": "#707070",
+		"editor.selectionHighlightBackground": "#ADD6FF26",
+		"tab.lastPinnedBorder": "#ccc3",
+		// side bar
+		"sideBarSectionHeader.background": "#0000",
+		"sideBarSectionHeader.border": "#ccc3",
+		"sideBar.background": "#191919", // Sidebar List Background
+		"sideBarTitle.foreground": "#BBBBBB",
+		// activity bar
+		"activityBar.background": "#1f1f1f", // Activity Bar Background
+		"list.dropBackground": "#383B3D",
+		"activityBarBadge.background": "#007ACC",
+		// menu
+		"input.placeholderForeground": "#A6A6A6",
+		"menu.background": "#252526",
+		"menu.foreground": "#CCCCCC",
+		// status bar
+		"statusBarItem.remoteForeground": "#FFF",
+		"statusBarItem.remoteBackground": "#16825D",
+    "statusBar.background" : "#1A1A1A",
     "statusBar.noFolderBackground" : "#212121",
     "statusBar.debuggingBackground": "#263238",
+		"ports.iconRunningProcessForeground": "#369432",
 	},
 	"tokenColors": [
+		{
+			"scope": [
+				"string",
+				"meta.embedded.assembly",
+				"markup.deleted",
+				"markup.inline.raw",
+				"meta.preprocessor.string",
+				"string.tag",
+				"string.value",
+			],
+			"settings": {
+				"foreground": "#dea38c"
+			}
+		},
 		{
 			"name": "Function declarations",
 			"scope": [

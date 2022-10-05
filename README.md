@@ -1,2 +1,2 @@
 # Deep Default Dark+ Theme for VS Code
-It's bascially just the default dark+ theme for VS Code only with a slightly darker background.  
+Default dark+ theme for VS Code with a slightly darker background.  Cooler color temperature and more vibrant colors are also available.  See examples below. Suggestions are also welcome.  

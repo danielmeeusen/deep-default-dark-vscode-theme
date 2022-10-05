@@ -34,27 +34,27 @@
             {
                 "label": "Deep Normal",
                 "uiTheme": "vs-dark",
-                "path": "./themes/normal-default-dark.json"
+                "path": "./themes/deep-normal.json"
             },
             {
                 "label": "Deep Normal Vibrant",
                 "uiTheme": "vs-dark",
-                "path": "./themes/vibrant-cool-dark.json"
+                "path": "./themes/deep-normal-vibrant.json"
             },
             {
                 "label": "Deep Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/deep-default-dark.json"
+                "path": "./themes/deep-dark.json"
             },
             {
                 "label": "Deep Dark Cool",
                 "uiTheme": "vs-dark",
-                "path": "./themes/cool-default-dark.json"
+                "path": "./themes/deep-dark-cool.json"
             },
             {
                 "label": "Deep Dark Vibrant",
                 "uiTheme": "vs-dark",
-                "path": "./themes/vibrant-default-dark.json"
+                "path": "./themes/deep-dark-vibrant.json"
             }
         ]
     }
