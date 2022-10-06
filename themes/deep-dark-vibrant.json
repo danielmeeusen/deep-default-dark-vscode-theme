@@ -36,45 +36,6 @@
 	},
 	"tokenColors": [
 		{
-			"scope": [
-				"string",
-				"meta.embedded.assembly",
-				"markup.deleted",
-				"markup.inline.raw",
-				"meta.preprocessor.string",
-				"string.tag",
-				"string.value",
-			],
-			"settings": {
-				"foreground": "#dea38c"
-			}
-		},
-		{
-			"scope": [
-				"support.type.vendored.property-name",
-				"support.type.property-name",
-				"variable.css",
-				"variable.scss",
-				"variable.other.less",
-				"source.coffee.embedded",
-				"support.function.git-rebase",
-				"entity.other.attribute-name",
-				"meta.structure.dictionary.key.python"
-			],
-			"settings": {
-				"foreground": "#8fd8ff"
-			}
-		},
-		{
-			"scope": [
-				"variable.other.constant",
-				"variable.other.enummember"
-			],
-			"settings": {
-				"foreground": "#4FC1FF"
-			}
-		},
-		{
 			"name": "Function declarations",
 			"scope": [
 				"entity.name.function",
