@@ -26,7 +26,10 @@
     "keywords": [
         "Dark Theme",
         "Default Dark+ Theme",
-        "Darker Default Theme"
+        "Darker Default Theme",
+        "Darker Theme",
+        "VSCode Dark Theme",
+        "Darker Dark+"
     ],
     "contributes": {
         "themes": [
