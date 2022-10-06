@@ -41,11 +41,11 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/deep-normal.json"
 			},
-			// {
-			// 	"label": "Deep Normal Vibrant",
-			// 	"uiTheme": "vs-dark",
-			// 	"path": "./themes/deep-normal-vibrant.json"
-			// },
+			{
+				"label": "Deep Normal Vibrant",
+				"uiTheme": "vs-dark",
+				"path": "./themes/deep-normal-vibrant.json"
+			},
 			{
 				"label": "Deep Dark",
 				"uiTheme": "vs-dark",
@@ -56,11 +56,11 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/deep-dark-cool.json"
 			},
-			// {
-			// 	"label": "Deep Dark Vibrant",
-			// 	"uiTheme": "vs-dark",
-			// 	"path": "./themes/deep-dark-vibrant.json"
-			// }
+			{
+				"label": "Deep Dark Vibrant",
+				"uiTheme": "vs-dark",
+				"path": "./themes/deep-dark-vibrant.json"
+			}
 		]
 	},
 	"__metadata": {

@@ -9,33 +9,25 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Strings", // tan
 			"scope": [
-				"string",
-				"meta.embedded.assembly",
 				"markup.deleted",
 				"markup.inline.raw",
 				"meta.preprocessor.string",
+				"string",
+				"meta.embedded.assembly",
 				"string.tag",
 				"string.value",
 			],
 			"settings": {
-				"foreground": "#dea38c"
+				"foreground": "#d79c85"
 			}
 		},
 		{
-			"scope": [
-				"support.type.vendored.property-name",
-				"support.type.property-name",
-				"variable.css",
-				"variable.scss",
-				"variable.other.less",
-				"source.coffee.embedded",
-				"support.function.git-rebase",
-				"entity.other.attribute-name",
-				"meta.structure.dictionary.key.python",
-			],
+			"name": "Comment",
+			"scope": "comment",
 			"settings": {
-				"foreground": "#a2defe"
+				"foreground": "#79a863"
 			}
 		},
 		{
@@ -52,7 +44,7 @@
 			}
 		},
 		{
-			"name": "Types declaration and references",
+			"name": "Types declaration and references", // green
 			"scope": [
 				"meta.return-type",
 				"support.class",
@@ -93,7 +85,7 @@
 			}
 		},
 		{
-			"name": "Types declaration and references, TS grammar specific",
+			"name": "Types declaration and references, TS grammar specific", // green
 			"scope": [
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
@@ -107,7 +99,7 @@
 			}
 		},
 		{
-			"name": "Control flow / Special keywords",
+			"name": "Control flow / Special keywords", // purple
 			"scope": [
 				"keyword.control",
 				"source.cpp keyword.operator.new",
@@ -117,11 +109,11 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#d18ecb"
 			}
 		},
 		{
-			"name": "Variable and parameter name",
+			"name": "Variable and parameter name", // light blue
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
@@ -133,7 +125,7 @@
 			}
 		},
 		{
-			"name": "Constants and enums",
+			"name": "Constants and enums", // blue
 			"scope": [
 				"variable.other.constant",
 				"variable.other.enummember"
@@ -143,7 +135,7 @@
 			}
 		},
 		{
-			"name": "Object keys, TS grammar specific",
+			"name": "Object keys, TS grammar specific", // teal
 			"scope": [
 				"meta.object-literal.key"
 			],
@@ -152,7 +144,7 @@
 			}
 		},
 		{
-			"name": "CSS property value",
+			"name": "CSS property value", // tan
 			"scope": [
 				"support.constant.property-value",
 				"support.constant.font-name",
@@ -163,11 +155,11 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#d79c85"
 			}
 		},
 		{
-			"name": "Regular expression groups",
+			"name": "Regular expression groups", // dark tan
 			"scope": [
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.assertion.regexp",
@@ -178,7 +170,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#d9987f"
 			}
 		},
 		{
@@ -189,7 +181,7 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#de7070"
 			}
 		},
 		{
@@ -204,7 +196,7 @@
 		{
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#e4c684"
 			}
 		},
 		{
@@ -216,7 +208,7 @@
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#e1c381"
 			}
 		},
 		{
@@ -228,7 +220,7 @@
 	],
 	"semanticTokenColors": {
 		"newOperator":"#C586C0",
-		"stringLiteral":"#ce9178",
+		"stringLiteral":"#d79c85", // tan
 		"customLiteral": "#DCDCAA",
 		"numberLiteral": "#b5cea8",
 	}
