@@ -6,4 +6,4 @@ Cooler color temperature and more vibrant colors are also available.
 
 Suggestions and pull requests are also welcome.  
 
-![deep dark preview image](/images/deep-dark-cropped.PNG)
+![deep dark preview image](images/deep-dark-cropped.PNG)
