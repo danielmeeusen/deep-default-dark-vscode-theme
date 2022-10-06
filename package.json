@@ -17,10 +17,9 @@
         "url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme/issues"
     },
     "galleryBanner": {
-        "color": "",
         "theme": "dark"
     },
-    "icon": "",
+    "icon": "images/deep-dark.PNG",
     "categories": [
         "Themes"
     ],
