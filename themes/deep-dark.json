@@ -36,6 +36,7 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Strings", // tan
 			"scope": [
 				"string",
 				"meta.embedded.assembly",
@@ -46,11 +47,60 @@
 				"string.value",
 			],
 			"settings": {
-				"foreground": "#dea38c"
+				"foreground": "#ce9178"
 			}
 		},
 		{
-			"name": "Function declarations",
+			"name": "CSS property value", // tan
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"name": "Regular expression groups", // dark tan
+			"scope": [
+				"punctuation.definition.group.regexp",
+				"punctuation.definition.group.assertion.regexp",
+				"punctuation.definition.character-class.regexp",
+				"punctuation.character.set.begin.regexp",
+				"punctuation.character.set.end.regexp",
+				"keyword.operator.negation.regexp",
+				"support.other.parenthesis.regexp"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"name": "Regular Expression constant", // red tan
+			"scope": [
+				"constant.character.character-class.regexp",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.set.regexp"
+			],
+			"settings": {
+				"foreground": "#d16969"
+			}
+		},
+		{
+			"name": "Comment", // dark green
+			"scope": "comment",
+			"settings": {
+				"foreground": "#79a863"
+			}
+		},
+		{
+			"name": "Function declarations", // light yellow
 			"scope": [
 				"entity.name.function",
 				"support.function",
@@ -63,7 +113,7 @@
 			}
 		},
 		{
-			"name": "Types declaration and references",
+			"name": "Types declaration and references", // mint green
 			"scope": [
 				"meta.return-type",
 				"support.class",
@@ -104,7 +154,7 @@
 			}
 		},
 		{
-			"name": "Types declaration and references, TS grammar specific",
+			"name": "Types declaration and references, TS grammar specific", // darker mint green
 			"scope": [
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
@@ -118,21 +168,16 @@
 			}
 		},
 		{
-			"name": "Control flow / Special keywords",
+			"name": "Object keys, TS grammar specific", // teal
 			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
-				"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
+				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
-			"name": "Variable and parameter name",
+			"name": "Variable and parameter name", // light blue
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
@@ -144,7 +189,7 @@
 			}
 		},
 		{
-			"name": "Constants and enums",
+			"name": "Constants and enums", // blue
 			"scope": [
 				"variable.other.constant",
 				"variable.other.enummember"
@@ -154,53 +199,49 @@
 			}
 		},
 		{
-			"name": "Object keys, TS grammar specific",
+			"name": "Storage Declaration", // blue
 			"scope": [
-				"meta.object-literal.key"
+				"meta.preprocessor",
+				"meta.diff.header",
+				"entity.name.function.preprocessor",
+				"constant.character",
+				"storage",
+				"storage.type",
+				"storage.modifier",
+				"keyword.operator.noexcept",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded",
+				"keyword",
+				"keyword.operator.expression",
+				"keyword.operator.cast",
+				"keyword.operator.sizeof",
+				"keyword.operator.alignof",
+				"keyword.operator.typeid",
+				"keyword.operator.alignas",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.wordlike",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"variable.language",
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#569CD6"
 			}
 		},
 		{
-			"name": "CSS property value",
+			"name": "Control flow / Special keywords", // purple
 			"scope": [
-				"support.constant.property-value",
-				"support.constant.font-name",
-				"support.constant.media-type",
-				"support.constant.media",
-				"constant.other.color.rgb-value",
-				"constant.other.rgb-value",
-				"support.constant.color"
+				"keyword.control",
+				"source.cpp keyword.operator.new",
+				"keyword.operator.delete",
+				"keyword.other.using",
+				"keyword.other.operator",
+				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#CE9178"
-			}
-		},
-		{
-			"name": "Regular expression groups",
-			"scope": [
-				"punctuation.definition.group.regexp",
-				"punctuation.definition.group.assertion.regexp",
-				"punctuation.definition.character-class.regexp",
-				"punctuation.character.set.begin.regexp",
-				"punctuation.character.set.end.regexp",
-				"keyword.operator.negation.regexp",
-				"support.other.parenthesis.regexp"
-			],
-			"settings": {
-				"foreground": "#CE9178"
-			}
-		},
-		{
-			"scope": [
-				"constant.character.character-class.regexp",
-				"constant.other.character-class.set.regexp",
-				"constant.other.character-class.regexp",
-				"constant.character.set.regexp"
-			],
-			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#C586C0"
 			}
 		},
 		{
@@ -238,8 +279,8 @@
 		}
 	],
 	"semanticTokenColors": {
-		"newOperator":"#C586C0",
-		"stringLiteral":"#ce9178",
+		"newOperator":"#C586C0", // purple
+		"stringLiteral":"#ce9178", // tan
 		"customLiteral": "#DCDCAA",
 		"numberLiteral": "#b5cea8",
 	}
