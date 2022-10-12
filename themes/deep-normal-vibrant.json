@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Normal Default Dark",
+	"name": "Deep Dark Normal Vibrant",
 	"include": "./dark_vs.json",
 	"colors": {
 		"statusBar.background" : "#1A1A1A",
@@ -158,7 +158,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#92d7fd"
+				"foreground": "#9cdafc"
 			}
 		},
 		{
@@ -168,24 +168,29 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#46bdfd",
+				"foreground": "#55c4ff",
 			}
 		},
 		{
-			"name": "Storage Declaration", // blue
+			"name": "Storage Labels", // dark blue
 			"scope": [
+				"constant.language",
+				"entity.name.tag",
+				"markup.bold",
+				"markup.heading",
+				"markup.changed",
 				"meta.preprocessor",
-				"meta.diff.header",
 				"entity.name.function.preprocessor",
-				"constant.character",
+				"meta.diff.header",
 				"storage",
-				"storage.type",
 				"storage.modifier",
 				"keyword.operator.noexcept",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
 				"punctuation.section.embedded",
 				"keyword",
+				"keyword.control",
+				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
 				"keyword.operator.sizeof",
@@ -195,12 +200,10 @@
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
 				"keyword.operator.wordlike",
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
 				"variable.language",
-			],
+			], 
 			"settings": {
-				"foreground": "#5ba5e2"
+				"foreground": "#5ca7e4"
 			}
 		},
 		{

@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Normal Default Dark",
+	"name": "Deep Dark Normal",
 	"include": "./dark_vs.json",
 	"colors": {
 		"statusBar.background" : "#1A1A1A",

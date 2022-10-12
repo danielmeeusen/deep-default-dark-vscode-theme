@@ -1,37 +1,37 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Deep Dark",
+	"name": "Deep Dark Cool",
 	"include": "./dark_vs.json",
 	"colors": {
 		// title bar
-		"titleBar.activeBackground": "#19191bcc",
+		"titleBar.activeBackground": "#18181a",
 		// editor
 		"editor.background": "#141416", // Base Color
 		"editor.foreground": "#D4D4D4",
-		"editor.inactiveSelectionBackground": "#32343b",
-		"editorIndentGuide.background": "#3b3b3e",
-		"editorIndentGuide.activeBackground": "#67676d",
-		"editor.selectionHighlightBackground": "#ADD6FF26",
+		"editor.inactiveSelectionBackground": "#27292e",
+		"editorIndentGuide.background": "#303034",
+		"editorIndentGuide.activeBackground": "#5c5c63",
+		"editor.selectionHighlightBackground": "#a9d4ff26",
 		"tab.lastPinnedBorder": "#ccc3",
 		// side bar
 		"sideBarSectionHeader.background": "#00000000",
-		"sideBarSectionHeader.border": "#cbcbce33",
-		"sideBar.background": "#171719", // Sidebar List Background
+		"sideBarSectionHeader.border": "#cacad033",
+		"sideBar.background": "#18181a", // Sidebar List Background
 		"sideBarTitle.foreground": "#BBBBBB",
 		// activity bar
-		"activityBar.background": "#1a1a1b", // Activity Bar Background
-		"list.dropBackground": "#373b3d",
+		"activityBar.background": "#202022", // Activity Bar Background
+		"list.dropBackground": "#34383a",
 		"activityBarBadge.background": "#007ACC",
 		// menu
 		"input.placeholderForeground": "#A6A6A6",
-		"menu.background": "#222225",
+		"menu.background": "#202024",
 		"menu.foreground": "#CCCCCC",
 		// status bar
 		"statusBarItem.remoteForeground": "#FFF",
 		"statusBarItem.remoteBackground": "#1f8863",
-    "statusBar.background" : "#171718",
-    "statusBar.noFolderBackground" : "#1b1b1c",
-    "statusBar.debuggingBackground": "#303f47",
+    "statusBar.background" : "#161618",
+    "statusBar.noFolderBackground" : "#1c1c1e",
+    "statusBar.debuggingBackground": "#2f3e47",
 		"ports.iconRunningProcessForeground": "#37a18c",
 	},
 	"tokenColors": [
@@ -185,7 +185,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#92d7fd"
+				"foreground": "#9cdafc"
 			}
 		},
 		{
@@ -195,24 +195,29 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#46bdfd",
+				"foreground": "#55c4ff",
 			}
 		},
 		{
-			"name": "Storage Declaration", // blue
+			"name": "Storage Labels", // dark blue
 			"scope": [
+				"constant.language",
+				"entity.name.tag",
+				"markup.bold",
+				"markup.heading",
+				"markup.changed",
 				"meta.preprocessor",
-				"meta.diff.header",
 				"entity.name.function.preprocessor",
-				"constant.character",
+				"meta.diff.header",
 				"storage",
-				"storage.type",
 				"storage.modifier",
 				"keyword.operator.noexcept",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
 				"punctuation.section.embedded",
 				"keyword",
+				"keyword.control",
+				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
 				"keyword.operator.sizeof",
@@ -222,12 +227,10 @@
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
 				"keyword.operator.wordlike",
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
 				"variable.language",
-			],
+			], 
 			"settings": {
-				"foreground": "#5ba5e2"
+				"foreground": "#5ca7e4"
 			}
 		},
 		{
