@@ -47,7 +47,7 @@
 				"string.value",
 			],
 			"settings": {
-				"foreground": "#dba792"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#dba792"
+				"foreground": "#CE9178"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#dea995"
+				"foreground": "#CE9178"
 			}
 		},
 		{
@@ -89,14 +89,14 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#e08383"
+				"foreground": "#d16969"
 			}
 		},
 		{
 			"name": "Comment", // dark green
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#79a863"
 			}
 		},
 		{
@@ -109,7 +109,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#e6e6b0"
+				"foreground": "#DCDCAA"
 			}
 		},
 		{
@@ -150,7 +150,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#52d3b9"
+				"foreground": "#4EC9B0"
 			}
 		},
 		{
@@ -164,7 +164,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#52d2b8"
+				"foreground": "#4EC9B0"
 			}
 		},
 		{
@@ -173,7 +173,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#92d8fe"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -185,7 +185,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#9cdafc"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -195,29 +195,24 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#55c4ff",
+				"foreground": "#4FC1FF",
 			}
 		},
 		{
-			"name": "Storage Labels", // dark blue
+			"name": "Storage keywords", // blue
 			"scope": [
-				"constant.language",
-				"entity.name.tag",
-				"markup.bold",
-				"markup.heading",
-				"markup.changed",
 				"meta.preprocessor",
-				"entity.name.function.preprocessor",
 				"meta.diff.header",
+				"entity.name.function.preprocessor",
+				"constant.character",
 				"storage",
+				"storage.type",
 				"storage.modifier",
 				"keyword.operator.noexcept",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
 				"punctuation.section.embedded",
 				"keyword",
-				"keyword.control",
-				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
 				"keyword.operator.sizeof",
@@ -227,10 +222,12 @@
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
 				"keyword.operator.wordlike",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
 				"variable.language",
-			], 
+			],
 			"settings": {
-				"foreground": "#5ca7e4"
+				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -244,7 +241,7 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#e399de"
+				"foreground": "#C586C0"
 			}
 		},
 		{
@@ -253,38 +250,38 @@
 				"keyword.control.anchor.regexp"
 			],
 			"settings": {
-				"foreground": "#f3f3ba"
+				"foreground": "#DCDCAA"
 			}
 		},
 		{
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
-				"foreground": "#f0d28f"
+				"foreground": "#d7ba7d"
 			}
 		},
 		{
 			"scope": "constant.character",
 			"settings": {
-				"foreground": "#60aeee"
+				"foreground": "#569cd6"
 			}
 		},
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#edcf8e"
+				"foreground": "#d7ba7d"
 			}
 		},
 		{
 			"scope": "entity.name.label",
 			"settings": {
-				"foreground": "#e0e0e0"
+				"foreground": "#C8C8C8"
 			}
 		}
 	],
 	"semanticTokenColors": {
-		"newOperator":"#e095db", // purple
-		"stringLiteral":"#dfa68f", // tan
-		"customLiteral": "#efefb0",
-		"numberLiteral": "#c5e4b4",
+		"newOperator":"#C586C0", // purple
+		"stringLiteral":"#ce9178", // tan
+		"customLiteral": "#DCDCAA",
+		"numberLiteral": "#b5cea8",
 	}
 }

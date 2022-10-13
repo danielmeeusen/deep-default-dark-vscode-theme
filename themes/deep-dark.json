@@ -96,7 +96,7 @@
 			"name": "Comment", // dark green
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#79a863"
 			}
 		},
 		{
