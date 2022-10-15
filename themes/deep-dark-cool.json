@@ -280,7 +280,7 @@
 	],
 	"semanticTokenColors": {
 		"newOperator":"#C586C0", // purple
-		"stringLiteral":"#ce9178", // tan
+		"stringLiteral":"#ce9a86", // tan
 		"customLiteral": "#DCDCAA",
 		"numberLiteral": "#b5cea8",
 	}
