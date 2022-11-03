@@ -47,7 +47,7 @@
 				"string.value",
 			],
 			"settings": {
-				"foreground": "#ce9a86"
+				"foreground": "#cf967f"
 			}
 		},
 		{
@@ -62,11 +62,11 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#ce9a86"
+				"foreground": "#cf967f"
 			}
 		},
 		{
-			"name": "Regular expression groups", // dark tan
+			"name": "Regular expression groups", // tan
 			"scope": [
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.assertion.regexp",
@@ -77,7 +77,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#cf9b86"
+				"foreground": "#cf967f"
 			}
 		},
 		{
@@ -89,14 +89,14 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#d27070"
+				"foreground": "#d57272"
 			}
 		},
 		{
 			"name": "Comment", // dark green
 			"scope": "comment",
 			"settings": {
-				"foreground": "#88b375"
+				"foreground": "#709d5b"
 			}
 		},
 		{
@@ -280,7 +280,7 @@
 	],
 	"semanticTokenColors": {
 		"newOperator":"#C586C0", // purple
-		"stringLiteral":"#ce9a86", // tan
+		"stringLiteral":"#cf967f", // tan
 		"customLiteral": "#DCDCAA",
 		"numberLiteral": "#b5cea8",
 	}
