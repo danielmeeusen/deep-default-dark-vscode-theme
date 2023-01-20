@@ -81,7 +81,7 @@
 			}
 		},
 		{
-			"name": "Regular Expression constant", // red tan
+			"name": "Regular Expression constant", // tan
 			"scope": [
 				"constant.character.character-class.regexp",
 				"constant.other.character-class.set.regexp",
@@ -89,7 +89,7 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#d57272"
+				"foreground": "#cf967f"
 			}
 		},
 		{
