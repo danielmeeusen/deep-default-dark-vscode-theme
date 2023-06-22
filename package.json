@@ -1,76 +1,79 @@
 {
-	"name": "deep-default-dark-vscode-theme",
-	"displayName": "Deep Default Dark+ VScode Theme",
-	"description": "Slightly darker and higher contrast versions of the default Dark+ VScode theme",
-	"publisher": "danmeeusen",
-	"author": {
-		"name": "Daniel Meeusen"
-	},
-	"version": "0.0.7",
-	"engines": {
-		"vscode": "^1.55.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme"
-	},
-	"bugs": {
-		"url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme/issues"
-	},
-	"galleryBanner": {
-		"theme": "dark"
-	},
-	"icon": "images/DeepDarkLogo.png",
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"Deep Default Dark",
-		"Deep Default Dark+",
-		"Deep Dark Theme",
-		"Dark Theme",
-		"Default Dark+ Theme",
-		"Darker Default Dark+",
-		"Darker Default Theme",
-		"Darker Theme",
-		"VSCode Dark Theme",
-		"Darker Dark+",
-		"Dark+",
-		"Dark+ Theme"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Deep Normal",
-				"uiTheme": "vs-dark",
-				"path": "./themes/deep-normal.json"
-			},
-			{
-				"label": "Deep Normal Vibrant",
-				"uiTheme": "vs-dark",
-				"path": "./themes/deep-normal-vibrant.json"
-			},
-			{
-				"label": "Deep Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/deep-dark.json"
-			},
-			{
-				"label": "Deep Dark Cool",
-				"uiTheme": "vs-dark",
-				"path": "./themes/deep-dark-cool.json"
-			},
-			{
-				"label": "Deep Dark Vibrant",
-				"uiTheme": "vs-dark",
-				"path": "./themes/deep-dark-vibrant.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "d5b6ac84-e8ee-4007-b525-32e76dfb83f8",
-		"publisherDisplayName": "DanMeeusen",
-		"publisherId": "28553e8e-e01a-4c92-9854-f989da3b7599",
-		"isPreReleaseVersion": false
-	}
+  "name": "deep-default-dark-vscode-theme",
+  "displayName": "Deep Default Dark+ VScode Theme",
+  "description": "Slightly darker and higher contrast versions of the default Dark+ VScode theme",
+  "publisher": "danmeeusen",
+  "author": {
+    "name": "Daniel Meeusen"
+  },
+  "version": "0.1.1",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/danielmeeusen/deep-default-dark-vscode-theme/issues"
+  },
+  "galleryBanner": {
+    "theme": "dark"
+  },
+  "icon": "images/DeepDarkLogo.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Deep Default Dark",
+    "Deep Default Dark+",
+    "Deep Dark Theme",
+    "Dark Theme",
+    "Default Dark+ Theme",
+    "Darker Default Dark+",
+    "Darker Default Theme",
+    "Darker Theme",
+    "VSCode Dark Theme",
+    "Darker Dark+",
+    "Dark+",
+    "Dark+ Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Deep Normal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-normal.json"
+      },
+      {
+        "label": "Deep Normal Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-normal-vibrant.json"
+      },
+      {
+        "label": "Deep Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-dark.json"
+      },
+      {
+        "label": "Deep Dark Cool",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-dark-cool.json"
+      },
+      {
+        "label": "Deep Dark Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-dark-vibrant.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "d5b6ac84-e8ee-4007-b525-32e76dfb83f8",
+    "publisherDisplayName": "DanMeeusen",
+    "publisherId": "28553e8e-e01a-4c92-9854-f989da3b7599",
+    "isPreReleaseVersion": false
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
 }
