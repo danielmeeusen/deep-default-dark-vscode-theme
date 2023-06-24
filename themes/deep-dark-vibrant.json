@@ -47,7 +47,7 @@
         "string.value"
       ],
       "settings": {
-        "foreground": "#e4b19b"
+        "foreground": "#d9a994"
       }
     },
     {
@@ -106,10 +106,10 @@
         "support.function",
         "support.constant.handlebars",
         "source.powershell variable.other.member",
-        "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+        "entity.name.operator.custom-literal"
       ],
       "settings": {
-        "foreground": "#dbdba7"
+        "foreground": "#e5e5aa"
       }
     },
     {
