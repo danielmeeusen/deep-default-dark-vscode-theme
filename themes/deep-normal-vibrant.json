@@ -1,263 +1,256 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-	"name": "Deep Dark Normal Vibrant",
-	"include": "./dark_vs.json",
-	"colors": {
-		"statusBar.background" : "#1A1A1A",
-    "statusBar.noFolderBackground" : "#212121",
-    "statusBar.debuggingBackground": "#263238",
-	},
-	"tokenColors": [
-		{
-			"name": "Strings", // tan
-			"scope": [
-				"string",
-				"meta.embedded.assembly",
-				"markup.deleted",
-				"markup.inline.raw",
-				"meta.preprocessor.string",
-				"string.tag",
-				"string.value",
-			],
-			"settings": {
-				"foreground": "#dba792"
-			}
-		},
-		{
-			"name": "CSS property value", // tan
-			"scope": [
-				"support.constant.property-value",
-				"support.constant.font-name",
-				"support.constant.media-type",
-				"support.constant.media",
-				"constant.other.color.rgb-value",
-				"constant.other.rgb-value",
-				"support.constant.color"
-			],
-			"settings": {
-				"foreground": "#dba792"
-			}
-		},
-		{
-			"name": "Regular expression groups", // dark tan
-			"scope": [
-				"punctuation.definition.group.regexp",
-				"punctuation.definition.group.assertion.regexp",
-				"punctuation.definition.character-class.regexp",
-				"punctuation.character.set.begin.regexp",
-				"punctuation.character.set.end.regexp",
-				"keyword.operator.negation.regexp",
-				"support.other.parenthesis.regexp"
-			],
-			"settings": {
-				"foreground": "#dea995"
-			}
-		},
-		{
-			"name": "Regular Expression constant", // red tan
-			"scope": [
-				"constant.character.character-class.regexp",
-				"constant.other.character-class.set.regexp",
-				"constant.other.character-class.regexp",
-				"constant.character.set.regexp"
-			],
-			"settings": {
-				"foreground": "#e08383"
-			}
-		},
-		{
-			"name": "Comment", // dark green
-			"scope": "comment",
-			"settings": {
-				"foreground": "#79a863"
-			}
-		},
-		{
-			"name": "Function declarations", // light yellow
-			"scope": [
-				"entity.name.function",
-				"support.function",
-				"support.constant.handlebars",
-				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
-			],
-			"settings": {
-				"foreground": "#e6e6b0"
-			}
-		},
-		{
-			"name": "Types declaration and references", // mint green
-			"scope": [
-				"meta.return-type",
-				"support.class",
-				"support.type",
-				"entity.name.type",
-				"entity.name.namespace",
-				"entity.other.attribute",
-				"entity.name.scope-resolution",
-				"entity.name.class",
-				"storage.type.numeric.go",
-				"storage.type.byte.go",
-				"storage.type.boolean.go",
-				"storage.type.string.go",
-				"storage.type.uintptr.go",
-				"storage.type.error.go",
-				"storage.type.rune.go",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
-			],
-			"settings": {
-				"foreground": "#52d3b9"
-			}
-		},
-		{
-			"name": "Types declaration and references, TS grammar specific", // darker mint green
-			"scope": [
-				"meta.type.cast.expr",
-				"meta.type.new.expr",
-				"support.constant.math",
-				"support.constant.dom",
-				"support.constant.json",
-				"entity.other.inherited-class"
-			],
-			"settings": {
-				"foreground": "#52d2b8"
-			}
-		},
-		{
-			"name": "Object keys, TS grammar specific", // teal
-			"scope": [
-				"meta.object-literal.key"
-			],
-			"settings": {
-				"foreground": "#92d8fe"
-			}
-		},
-		{
-			"name": "Variable and parameter name", // light blue
-			"scope": [
-				"variable",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable"
-			],
-			"settings": {
-				"foreground": "#9cdafc"
-			}
-		},
-		{
-			"name": "Constants and enums", // blue
-			"scope": [
-				"variable.other.constant",
-				"variable.other.enummember"
-			],
-			"settings": {
-				"foreground": "#55c4ff",
-			}
-		},
-		{
-			"name": "Storage Labels", // dark blue
-			"scope": [
-				"constant.language",
-				"entity.name.tag",
-				"markup.bold",
-				"markup.heading",
-				"markup.changed",
-				"meta.preprocessor",
-				"entity.name.function.preprocessor",
-				"meta.diff.header",
-				"storage",
-				"storage.modifier",
-				"keyword.operator.noexcept",
-				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end",
-				"punctuation.section.embedded",
-				"keyword",
-				"keyword.control",
-				"keyword.operator.new",
-				"keyword.operator.expression",
-				"keyword.operator.cast",
-				"keyword.operator.sizeof",
-				"keyword.operator.alignof",
-				"keyword.operator.typeid",
-				"keyword.operator.alignas",
-				"keyword.operator.instanceof",
-				"keyword.operator.logical.python",
-				"keyword.operator.wordlike",
-				"variable.language",
-			], 
-			"settings": {
-				"foreground": "#5ca7e4"
-			}
-		},
-		{
-			"name": "Control flow / Special keywords", // purple
-			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
-				"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
-			],
-			"settings": {
-				"foreground": "#e399de"
-			}
-		},
-		{
-			"scope": [
-				"keyword.operator.or.regexp",
-				"keyword.control.anchor.regexp"
-			],
-			"settings": {
-				"foreground": "#f3f3ba"
-			}
-		},
-		{
-			"scope": "keyword.operator.quantifier.regexp",
-			"settings": {
-				"foreground": "#f0d28f"
-			}
-		},
-		{
-			"scope": "constant.character",
-			"settings": {
-				"foreground": "#60aeee"
-			}
-		},
-		{
-			"scope": "constant.character.escape",
-			"settings": {
-				"foreground": "#edcf8e"
-			}
-		},
-		{
-			"scope": "entity.name.label",
-			"settings": {
-				"foreground": "#e0e0e0"
-			}
-		}
-	],
-	"semanticTokenColors": {
-		"newOperator":"#e095db", // purple
-		"stringLiteral":"#dfa68f", // tan
-		"customLiteral": "#efefb0",
-		"numberLiteral": "#c5e4b4",
-	}
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Deep Dark Normal Vibrant",
+  "include": "./dark_vs.json",
+  "colors": {
+    "statusBar.background": "#1A1A1A",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "tokenColors": [
+    {
+      "name": "Strings", // tan
+      "scope": [
+        "string",
+        "meta.embedded.assembly",
+        "markup.deleted",
+        "markup.inline.raw",
+        "meta.preprocessor.string",
+        "string.tag",
+        "string.value"
+      ],
+      "settings": {
+        "foreground": "#e4b19b"
+      }
+    },
+    {
+      "name": "CSS property value", // tan
+      "scope": [
+        "support.constant.property-value",
+        "support.constant.font-name",
+        "support.constant.media-type",
+        "support.constant.media",
+        "constant.other.color.rgb-value",
+        "constant.other.rgb-value",
+        "support.constant.color"
+      ],
+      "settings": {
+        "foreground": "#dca38d"
+      }
+    },
+    {
+      "name": "Regular expression groups", // dark tan
+      "scope": [
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.group.assertion.regexp",
+        "punctuation.definition.character-class.regexp",
+        "punctuation.character.set.begin.regexp",
+        "punctuation.character.set.end.regexp",
+        "keyword.operator.negation.regexp",
+        "support.other.parenthesis.regexp"
+      ],
+      "settings": {
+        "foreground": "#dea48e"
+      }
+    },
+    {
+      "name": "Regular Expression constant", // red tan
+      "scope": [
+        "constant.character.character-class.regexp",
+        "constant.other.character-class.set.regexp",
+        "constant.other.character-class.regexp",
+        "constant.character.set.regexp"
+      ],
+      "settings": {
+        "foreground": "#de7e7e"
+      }
+    },
+    {
+      "name": "Comment", // dark green
+      "scope": "comment",
+      "settings": {
+        "foreground": "#7cad65"
+      }
+    },
+    {
+      "name": "Function declarations", // light yellow
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.constant.handlebars",
+        "source.powershell variable.other.member",
+        "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+      ],
+      "settings": {
+        "foreground": "#dbdba7"
+      }
+    },
+    {
+      "name": "Types declaration and references", // mint green
+      "scope": [
+        "meta.return-type",
+        "support.class",
+        "support.type",
+        "entity.name.type",
+        "entity.name.namespace",
+        "entity.other.attribute",
+        "entity.name.scope-resolution",
+        "entity.name.class",
+        "storage.type.numeric.go",
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.error.go",
+        "storage.type.rune.go",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.modifier.cs",
+        "storage.type.variable.cs",
+        "storage.type.annotation.java",
+        "storage.type.generic.java",
+        "storage.type.java",
+        "storage.type.object.array.java",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.java",
+        "storage.type.token.java",
+        "storage.type.groovy",
+        "storage.type.annotation.groovy",
+        "storage.type.parameters.groovy",
+        "storage.type.generic.groovy",
+        "storage.type.object.array.groovy",
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.groovy"
+      ],
+      "settings": {
+        "foreground": "#58d1b9"
+      }
+    },
+    {
+      "name": "Types declaration and references, TS grammar specific", // darker mint green
+      "scope": [
+        "meta.type.cast.expr",
+        "meta.type.new.expr",
+        "support.constant.math",
+        "support.constant.dom",
+        "support.constant.json",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#5adac0"
+      }
+    },
+    {
+      "name": "Object keys, TS grammar specific", // teal
+      "scope": ["meta.object-literal.key", "entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#8ed8ff"
+      }
+    },
+    {
+      "name": "Variable and parameter name", // light blue
+      "scope": [
+        "variable",
+        "meta.definition.variable.name",
+        "support.variable",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "#8ad6ff"
+      }
+    },
+    {
+      "name": "Constants and enums", // blue
+      "scope": ["variable.other.constant", "variable.other.enummember"],
+      "settings": {
+        "foreground": "#4FC1FF"
+      }
+    },
+    {
+      "name": "Storage Labels", // dark blue
+      "scope": [
+        "constant.language",
+        "entity.name.tag",
+        "markup.bold",
+        "markup.heading",
+        "markup.changed",
+        "meta.preprocessor",
+        "entity.name.function.preprocessor",
+        "meta.diff.header",
+        "storage",
+        "storage.modifier",
+        "storage.type",
+        "keyword.operator.noexcept",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded",
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.cast",
+        "keyword.operator.sizeof",
+        "keyword.operator.alignof",
+        "keyword.operator.typeid",
+        "keyword.operator.alignas",
+        "keyword.operator.instanceof",
+        "keyword.operator.logical.python",
+        "keyword.operator.wordlike",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#63abe5"
+      }
+    },
+    {
+      "name": "Control flow / Special keywords", // purple
+      "scope": [
+        "keyword.control",
+        "source.cpp keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.other.using",
+        "keyword.other.operator",
+        "entity.name.operator"
+      ],
+      "settings": {
+        "foreground": "#d990d3"
+      }
+    },
+    {
+      "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
+      "settings": {
+        "foreground": "#e7e7ad"
+      }
+    },
+    {
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "#d5bb82"
+      }
+    },
+    {
+      "scope": "constant.character",
+      "settings": {
+        "foreground": "#64abe6"
+      }
+    },
+    {
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#e3c88d"
+      }
+    },
+    {
+      "scope": "entity.name.label",
+      "settings": {
+        "foreground": "#cdcccc"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "newOperator": "#d992d3", // purple
+    "stringLiteral": "#db9e86", // tan
+    "customLiteral": "#e8e8b2",
+    "numberLiteral": "#b9dea6"
+  }
 }
