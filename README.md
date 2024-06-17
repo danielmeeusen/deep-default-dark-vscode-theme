@@ -14,9 +14,3 @@ Suggestions and pull requests are welcome on my [GitHub repo](https://github.com
 
 ## Deep Dark Cool ##
 ![deep dark cool preview image](https://github.com/danielmeeusen/deep-default-dark-vscode-theme/blob/main/images/DeepDarkCool.PNG?raw=true)
-
-## Deep Normal ##
-![deep normal preview image](https://github.com/danielmeeusen/deep-default-dark-vscode-theme/blob/main/images/DeepNormal.PNG?raw=true)
-
-## Deep Normal Vibrant ##
-![deep normal vibrant preview image](https://github.com/danielmeeusen/deep-default-dark-vscode-theme/blob/main/images/DeepNormalVibrant.PNG?raw=true)

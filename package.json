@@ -6,7 +6,7 @@
   "author": {
     "name": "Daniel Meeusen"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.55.0"
   },
@@ -40,16 +40,6 @@
   ],
   "contributes": {
     "themes": [
-      {
-        "label": "Deep Normal",
-        "uiTheme": "vs-dark",
-        "path": "./themes/deep-normal.json"
-      },
-      {
-        "label": "Deep Normal Vibrant",
-        "uiTheme": "vs-dark",
-        "path": "./themes/deep-normal-vibrant.json"
-      },
       {
         "label": "Deep Dark",
         "uiTheme": "vs-dark",

@@ -222,7 +222,8 @@
         "keyword.operator.instanceof",
         "keyword.operator.logical.python",
         "keyword.operator.wordlike",
-        "variable.language"
+        "variable.language",
+        "storage.type"
       ],
       "settings": {
         "foreground": "#569CD6"
